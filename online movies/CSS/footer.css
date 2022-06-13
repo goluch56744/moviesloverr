@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color1: #333;
+    --color2: rgb(238, 238, 238);
+    --color3:#888;
+}
+
+footer{
+    height: auto;
+    width: auto;
+    margin-top: 40px;
+    /* background-color:rgba(241, 195, 195, 0.24); */
+    background-color: var(--color1);
+}
+
+.footer_start{
+    -ms-flex-preferred-size: 0;
+    overflow: auto;
+    white-space:normal;
+    flex-basis: 0;
+    padding: 0 25px;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;    
+} 
+
+.col_1_logo{
+    flex-basis: 0;
+    overflow: auto;
+    white-space:normal;
+    display: inline-block;
+    height: auto;
+    width: 300px;
+    margin: 10px 10px;
+}
+.footer_h{
+/* Poppins,, Ubuntu, Fuzzy Bubbles, Patrick Hand */
+    font-family: "Baloo Bhaijaan 2"; 
+    margin-left: 2rem !important;
+    padding: 2px;
+    color:var(--color2);
+}
+.col_2_menu{
+    float: left;
+    width: 25%;
+    padding: 10px 10px;
+}
+.ft_grap{
+    color: var(--color2);
+    padding: 10px 30px;
+    padding-right: 80px;
+    line-height: 20px;
+    font-size: 15px;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 0.3em;
+    margin-inline-end: 0.3em;
+
+}
+.menu_list li {
+    list-style: none;
+    margin: 20px 10px;
+    margin-left: 2rem !important;
+   
+}
+.menu_list li a{
+    text-decoration: none;
+    color:var(--color2);
+    font-weight: 400;
+    
+}
+.ion_1{
+    padding-top:30px;
+    margin-left: 1.5rem !important;
+}
+ 
+.ion_1 p{
+    display: inline-block;
+    color:var(--color1); 
+    margin: 0 10px;
+}
+.ion_1 a{
+    color: var(--color2);
+}
+.ion_2{
+    padding-top: 23px;
+    margin-left: 1.3rem !important;
+}
+.ion_2 a {
+    margin: 0 0;
+    color:var(--color2); 
+    text-decoration: none;
+}
+.ion_3{
+    padding-top: 23px;
+    margin-left: 1.3rem !important;
+}
+.ion_3 a{
+    color:var(--color2); 
+    text-decoration: none;
+}
+
+.copy_right{
+    height: 130px;
+    width: auto;
+    margin: 0 30px;
+}
+
+.copy_right p{
+    padding-top: 50px;
+    font-family: "Poppins";
+    text-align: center;
+    line-height: 24px;
+    margin-block-start: 0.5em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 10px;
+    color: var(--color3);
+}
+.copy_right strong{
+    color:var(--color2);
+    font-size: 17px;
+    font-family:"Baloo Bhaijaan 2" ;
+}
+.copy_right a{
+    text-decoration:none ;
+}
+
+@media screen and (max-width: 750px) {
+    .col_2_menu {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
